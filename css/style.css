@@ -30,6 +30,7 @@ a {
 Slideshow 
 
 -------------------------------- */
+
 .cd-slideshow-wrapper {
   overflow: hidden;
 }
@@ -168,10 +169,13 @@ Slide Content
   display: table-cell;
   vertical-align: middle;
   text-align: center;
-  background-color: #d25555;
+  /*background-color: #d25555;*/
 }
 .cd-slideshow > li:nth-of-type(1) .cd-slider-content .content-wrapper {
-  background: #d25555;
+  background: url(../img/hp_banner.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 .cd-slideshow > li:nth-of-type(2) .cd-slider-content .content-wrapper {
   background: #2b3158;
@@ -192,10 +196,11 @@ Slide Content
   font-size: 3rem;
   color: #ffffff;
 }
-.cd-slider-content p {
-  margin: 1em 0 2em;
-  opacity: .6;
-}
+.cd-slider-content 
+  p {
+    margin: 1em 0 2em;
+    opacity: .6;
+  }
 @media only screen and (min-width: 1100px) {
   .cd-slider-content {
     height: 84vh;

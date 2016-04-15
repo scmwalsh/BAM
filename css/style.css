@@ -177,21 +177,32 @@ Slide Content
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
-.cd-slideshow > li:nth-of-type(2) .cd-slider-content .content-wrapper {
-  background: #2b3158;
+.cd-slideshow > li:nth-of-type(2) .sub-slides > li:nth-of-type(1) .cd-slider-content .content-wrapper {
+  background: url(../img/our-work-video-image.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 .cd-slideshow > li:nth-of-type(3) .cd-slider-content .content-wrapper {
-  background: #56b456;
+  background: url(../img/bam-office-photo.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 .cd-slideshow > li:nth-of-type(4) .cd-slider-content .content-wrapper {
-  background: #52bccf;
+  background: #fff;
 }
 .cd-slideshow > li:nth-of-type(5) .cd-slider-content .content-wrapper {
-  background: #df8a2f;
+  background: url(../img/bam-map.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;  
 }
+/*
 .cd-slideshow > li:nth-of-type(6) .cd-slider-content .content-wrapper {
   background: #c14fce;
 }
+*/
 .cd-slider-content h2 {
   font-size: 3rem;
   color: #ffffff;

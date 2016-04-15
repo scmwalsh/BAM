@@ -81,8 +81,8 @@ Slideshow
 }
 .cd-slideshow .slider-dots {
   /*
-  	dots visible on mobile when a slide has sub-slides
-  	you won't see this element in the html - created using jQuery
+    dots visible on mobile when a slide has sub-slides
+    you won't see this element in the html - created using jQuery
   */
   position: absolute;
   z-index: 3;
@@ -110,8 +110,8 @@ Slideshow
 }
 .cd-slideshow.remove-transitions {
   /*
-  	remove transition on transforms
-  	used to switch form a slide to another from the main navigation
+    remove transition on transforms
+    used to switch form a slide to another from the main navigation
   */
   -webkit-transition: -webkit-transform 0s;
   -moz-transition: -moz-transform 0s;
@@ -183,6 +183,7 @@ img {
     width:100%;
     overflow:hidden;
 }
+/*CSS for whole page -- Marcel*/
 .cd-slider-content .content-wrapper > .row {
     height:100%;
 }
@@ -190,19 +191,20 @@ img {
     height:100%;
     width:100%;
     background-color: rgba(0,0,0,0.5);
-    display:none;
-}
-.cd-slider-content .content-wrapper .text-wrapper:hover {
     display:block;
 }
+.cd-slider-content .content-wrapper .text-wrapper:hover {
+    display:none;
+}
 .cd-slider-content .content-wrapper > .row > .col > .row {
-    
+
     height:50%;
 }
 .cd-slider-content .content-wrapper > .row > div > div p {
     margin:0;
     padding:0;
 }
+/* Slider 1 styles*/
 .cd-slideshow > li:nth-of-type(1) .cd-slider-content .content-wrapper {
   background: url(../img/BAM-slide-1.jpg);
   background-size: contain;
@@ -225,10 +227,6 @@ img {
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
-<<<<<<< HEAD
-.cd-slideshow > li:nth-of-type(2) .sub-slides > li:nth-of-type(2) .cd-slider-content .content-wrapper > .row > div:nth-of-type(2) {
-
-=======
 .cd-slideshow > li:nth-of-type(2) .sub-slides > li:nth-of-type(2) .cd-slider-content .content-wrapper > .row > div:nth-of-type(2) > .row:nth-of-type(1) > div:nth-of-type(1) {
   background: url(../img/mobile-pine-lot-reserve.jpg);
   background-size: contain;
@@ -240,25 +238,24 @@ img {
   background-size: contain;
   background-repeat: no-repeat;
   background-size: 100% 100%;
->>>>>>> b024939cdbea8f9c3241c4ba6d8a4fc59053e2c7
 }
 .cd-slideshow > li:nth-of-type(2) .sub-slides > li:nth-of-type(2) .cd-slider-content .content-wrapper > .row > div:nth-of-type(2) > .row.splitThree > div:nth-of-type(1) {
   background: url(../img/site-plan-with-intergrated-lighting.jpg);
   background-size: contain;
   background-repeat: no-repeat;
-  background-size: 100% 100%;   
+  background-size: 100% 100%;
 }
 .cd-slideshow > li:nth-of-type(2) .sub-slides > li:nth-of-type(2) .cd-slider-content .content-wrapper > .row > div:nth-of-type(2) > .row.splitThree > div:nth-of-type(2) {
   background: url(../img/master-planned-waterfront-community.jpg);
   background-size: contain;
   background-repeat: no-repeat;
-  background-size: 100% 100%;      
+  background-size: 100% 100%;
 }
 .cd-slideshow > li:nth-of-type(2) .sub-slides > li:nth-of-type(2) .cd-slider-content .content-wrapper > .row > div:nth-of-type(2) > .row.splitThree > div:nth-of-type(3) {
   background: url(../img/sean-digital-brochure.jpg);
   background-size: contain;
   background-repeat: no-repeat;
-  background-size: 100% 100%;       
+  background-size: 100% 100%;
 }
 
 
@@ -284,19 +281,19 @@ img {
   background: url(../img/west-5-logo.png);
   background-size: contain;
   background-repeat: no-repeat;
-  background-size: 100% 100%;   
+  background-size: 100% 100%;
 }
 .cd-slideshow > li:nth-of-type(2) .sub-slides > li:nth-of-type(3) .cd-slider-content .content-wrapper > .row > div:nth-of-type(2) > .row.splitThree > div:nth-of-type(2) {
   background: url(../img/putting-communities-on-the-map.jpg);
   background-size: contain;
   background-repeat: no-repeat;
-  background-size: 100% 100%;      
+  background-size: 100% 100%;
 }
 .cd-slideshow > li:nth-of-type(2) .sub-slides > li:nth-of-type(3) .cd-slider-content .content-wrapper > .row > div:nth-of-type(2) > .row.splitThree > div:nth-of-type(3) {
   background: url(../img/next-level-topo-table.jpg);
   background-size: contain;
   background-repeat: no-repeat;
-  background-size: 100% 100%;       
+  background-size: 100% 100%;
 }
 
 
@@ -711,4 +708,3 @@ hr.linebreak {
   box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
   width: 80%;
 }
-

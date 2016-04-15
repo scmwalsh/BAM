@@ -408,7 +408,7 @@ Slideshow Navigation
   position: fixed;
   z-index: 1;
   height: 100vh;
-  width: 100%;
+  width: auto;
   overflow: hidden;
   top: 0;
   left: 0;

@@ -177,40 +177,7 @@ img {
     width:100%;
     overflow:hidden;
 }
-/*CSS for whole page -- Marcel*/
-.cd-slider-content .content-wrapper > .row {
-    height:100%;
-    overflow:hidden;
-}
-.cd-slider-content .content-wrapper .text-wrapper {
-    height:100%;
-    width:100%;
-    background-color: rgba(0,0,0,0.5);
-    display:none;
-    position:relative;
-}
-.cd-slider-content .content-wrapper .text-wrapper:hover {
-    display:block;
-}
-.cd-slider-content .content-wrapper > .row > .col > .row {
 
-    height:50%;
-}
-.cd-slider-content .content-wrapper .text-wrapper p {
-    font-size:35px;
-    font-size:1.75vw;
-    font-weight:bold;
-    color:#fff;
-    display:block;
-    margin:auto;
-    position:absolute;
-    top:0;
-    bottom:0;
-    left:15%;
-    width:70%;
-    height:30%;
-    text-align:left;
-}
 /* Slider 1 styles*/
 .cd-slideshow > li:nth-of-type(1) .cd-slider-content .content-wrapper {
   background: url(../img/BAM-slide-1.jpg);
@@ -225,6 +192,39 @@ img {
   background-size: 100% 100%;
 }
 /* Slider 2 styles*/
+#slide-2 .cd-slider-content .content-wrapper > .row {
+    height:100%;
+    overflow:hidden;
+}
+#slide-2 .cd-slider-content .content-wrapper .text-wrapper {
+    height:100%;
+    width:100%;
+    background-color: rgba(0,0,0,0.5);
+    display:none;
+    position:relative;
+}
+#slide-2 .cd-slider-content .content-wrapper .text-wrapper:hover {
+    display:block;
+}
+#slide-2 .cd-slider-content .content-wrapper > .row > .col > .row {
+
+    height:50%;
+}
+#slide-2 .cd-slider-content .content-wrapper .text-wrapper p {
+    font-size:35px;
+    font-size:1.75vw;
+    font-weight:bold;
+    color:#fff;
+    display:block;
+    margin:auto;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:15%;
+    width:70%;
+    height:30%;
+    text-align:left;
+}
 #slide-2 .cd-slider-content .content-wrapper {
     padding: 60px 80px;
 }

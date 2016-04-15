@@ -700,6 +700,7 @@ p.body5 {
   font-size: 3vw;
   z-index: 1;
   font-weight: bold;
+  margin: 0;
 }
 
 hr.linebreak {

@@ -196,7 +196,7 @@ Slide Content
   background: url(../img/bam-map.jpg);
   background-size: contain;
   background-repeat: no-repeat;
-  background-size: 100% 100%;  
+  background-size: 100% 100%;
 }
 /*
 .cd-slideshow > li:nth-of-type(6) .cd-slider-content .content-wrapper {
@@ -560,4 +560,21 @@ no-js
 
 .no-js .sub-nav {
   display: none;
+}
+
+/*page 5 box*/
+
+.leftbox {
+  width: 40%;
+  height: 100%;
+
+  background: white;
+  opacity: 0.7;
+  border-radius: 20px;
+}
+
+.connect {
+  color: #a9a9a9;
+  font-size: 50px;
+  z-index: 1;
 }

@@ -163,6 +163,7 @@ img {
 }
 .row > div {
     height:100%;
+    padding:0;
 }
 .row .row {
     height:50%;
@@ -184,6 +185,23 @@ img {
 }
 .cd-slider-content .content-wrapper > .row {
     height:100%;
+}
+.cd-slider-content .content-wrapper .text-wrapper {
+    height:100%;
+    width:100%;
+    background-color: rgba(0,0,0,0.5);
+    display:none;
+}
+.cd-slider-content .content-wrapper .text-wrapper:hover {
+    display:block;
+}
+.cd-slider-content .content-wrapper > .row > .col > .row {
+    
+    height:50%;
+}
+.cd-slider-content .content-wrapper > .row > div > div p {
+    margin:0;
+    padding:0;
 }
 .cd-slideshow > li:nth-of-type(1) .cd-slider-content .content-wrapper {
   background: url(../img/BAM-slide-1.jpg);

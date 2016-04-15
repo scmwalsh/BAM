@@ -203,7 +203,7 @@ img {
   background-size: 100% 100%;
 }
 .cd-slideshow > li:nth-of-type(2) .sub-slides > li:nth-of-type(2) .cd-slider-content .content-wrapper > .row > div:nth-of-type(2) {
- 
+
 }
 .cd-slideshow > li:nth-of-type(3) .cd-slider-content .content-wrapper {
   background: url(../img/bam-office-photo.jpg);
@@ -595,8 +595,17 @@ no-js
   border-radius: 20px;
 }
 
-.connect {
+.Connect {
   color: #a9a9a9;
-  font-size: 50px;
+  font-size: 7vw;
   z-index: 1;
+  font-weight: bold;
 }
+
+hr.linebreak {
+  height: 12px;
+  border: 0;
+  box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+  width: 80%;
+}
+

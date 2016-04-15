@@ -602,6 +602,13 @@ no-js
   font-weight: bold;
 }
 
+p.body5 {
+  color: black;
+  font-size: 3vw;
+  z-index: 1;
+  font-weight: bold;
+}
+
 hr.linebreak {
   height: 12px;
   border: 0;

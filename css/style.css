@@ -192,13 +192,9 @@ img {
     height:100%;
     width:100%;
     background-color: rgba(0,0,0,0.5);
-<<<<<<< HEAD
     display:none;
     position:relative;
-=======
-    display:block;
->>>>>>> b006baa762ca1600e274335ed8151a05816bca0e
-}
+
 .cd-slider-content .content-wrapper .text-wrapper:hover {
     display:none;
 }
@@ -713,6 +709,9 @@ p.body5 {
   z-index: 1;
   font-weight: bold;
   margin: 0;
+  text-align: left;
+  margin-left: 8%;
+  padding-bottom: 8px;
 }
 
 hr.linebreak {

@@ -183,14 +183,17 @@ img {
     width:100%;
     overflow:hidden;
 }
+/*CSS for whole page -- Marcel*/
 .cd-slider-content .content-wrapper > .row {
     height:100%;
+    overflow:hidden;
 }
 .cd-slider-content .content-wrapper .text-wrapper {
     height:100%;
     width:100%;
     background-color: rgba(0,0,0,0.5);
     display:none;
+    position:relative;
 }
 .cd-slider-content .content-wrapper .text-wrapper:hover {
     display:block;
@@ -199,10 +202,24 @@ img {
     
     height:50%;
 }
-.cd-slider-content .content-wrapper > .row > div > div p {
+.cd-slider-content .content-wrapper .text-wrapper p {
     margin:0;
     padding:0;
+    font-size:35px;
+    font-size:1.75vw;
+    font-weight:bold;
+    color:#fff;
+    display:block;
+    margin:auto;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:15%;
+    width:70%;
+    height:30%;
+    text-align:left;
 }
+/* Slider 1 styles*/
 .cd-slideshow > li:nth-of-type(1) .cd-slider-content .content-wrapper {
   background: url(../img/BAM-slide-1.jpg);
   background-size: contain;
@@ -216,6 +233,9 @@ img {
   background-size: 100% 100%;
 }
 /* Slider 2 styles*/
+#slide-2 .cd-slider-content .content-wrapper {
+    padding: 60px 80px;
+}
 .cd-slideshow > li:nth-of-type(2) .sub-slides > li:nth-of-type(2) .cd-slider-content .content-wrapper > .row {
  height:100%;
 }
@@ -320,11 +340,13 @@ img {
   font-size: 3rem;
   color: #ffffff;
 }
+/*
 .cd-slider-content
   p {
     margin: 1em 0 2em;
     opacity: .6;
   }
+*/
 @media only screen and (min-width: 1100px) {
   .cd-slider-content {
     height: 84vh;

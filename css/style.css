@@ -172,7 +172,7 @@ Slide Content
   /*background-color: #d25555;*/
 }
 .cd-slideshow > li:nth-of-type(1) .cd-slider-content .content-wrapper {
-  background: url(../img/hp_banner2.png);
+  background: url(../img/BAM-slide-1.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -206,7 +206,7 @@ Slide Content
     height: 84vh;
     width: 90vw;
     margin: 2vh 5vw;
-    border-radius: 10px;
+    border-radius: 20px;
     cursor: pointer;
   }
   .visible .sub-visible .cd-slider-content, .visible > .cd-slider-content {

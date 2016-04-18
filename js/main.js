@@ -274,4 +274,15 @@ jQuery(document).ready(function($){
 		var mq = window.getComputedStyle(element, '::before').getPropertyValue('content').replace(/["']/g, '');
 		return mq;
 	}
+	
+	
+	
+	
+	
+	
+	//jQuery(".text-wrapper").hover( function(){jQuery(".text-box").addClass("hover");} );
+	
+	jQuery(".text-wrapper").hover(function(){jQuery(this).toggleClass("hover");});
+	
+	
 });

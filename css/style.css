@@ -199,12 +199,21 @@ img {
 #slide-2 .cd-slider-content .content-wrapper .text-wrapper {
     height:100%;
     width:100%;
-    background-color: rgba(0,0,0,0.5);
+    display:block;
+}
+#slide-2 .cd-slider-content .content-wrapper .text-wrapper .text-box {
+    height:100%;
+    width:100%;
+    background-color: rgba(0,0,0,0.7);
     display:none;
     position:relative;
 }
-#slide-2 .cd-slider-content .content-wrapper .text-wrapper:hover {
+#slide-2 .cd-slider-content .content-wrapper .text-wrapper.hover .text-box {
     display:block;
+}
+
+#slide-2 .cd-slider-content .content-wrapper .text-wrapper.hover {
+    visibility:visible;
 }
 #slide-2 .cd-slider-content .content-wrapper > .row > .col > .row {
 

@@ -819,6 +819,7 @@ hr.style1 {
   padding: 5px 15px 5px 15px;
   text-decoration: none;
   margin-top: 20px;
+  border-bottom: none;
 }
 
 .btn:hover {

@@ -820,6 +820,8 @@ hr.style1 {
   text-decoration: none;
   margin-top: 20px;
   border-bottom: none;
+  position: absolute;
+  bottom: 110px;
 }
 
 .btn:hover {

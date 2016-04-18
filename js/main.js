@@ -280,8 +280,9 @@ jQuery(document).ready(function($){
 	
 	
 	
-	jQuery(".text-wrapper").hover( function(){jQuery(this).addClass("hover");} );
-	jQuery(".text-wrapper").mouseover(function(){jQuery(this).addClass("hover");});
+	//jQuery(".text-wrapper").hover( function(){jQuery(".text-box").addClass("hover");} );
+	
+	jQuery(".text-wrapper").hover(function(){jQuery(this).toggleClass("hover");});
 	
 	
 });

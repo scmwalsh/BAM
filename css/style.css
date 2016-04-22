@@ -834,7 +834,8 @@ hr.style1 {
   margin-top: 20px;
   border-bottom: none;
   position: absolute;
-  bottom: 70px;
+ /* bottom: 70px;*/
+ top: 12vw;
 }
 
 .btn:hover {

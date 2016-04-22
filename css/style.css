@@ -846,10 +846,10 @@ hr.style1 {
   background-image: linear-gradient(to bottom, #bf0404, #d93434);
   text-decoration: none;
 }
-/*
-@media only screen and (min-device-width: 991px) and (max-device-width: 1099px) {
+
+@media only screen and (min-device-width: 992px) and (max-device-width: 1099px) {
   .btn {
     bottom: 220px;
   }
-}*/
+}
 

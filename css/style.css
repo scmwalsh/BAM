@@ -773,6 +773,19 @@ no-js
 
 /*page 5 box*/
 
+@media (max-width: 991px) {
+  .row div {
+    height: 45%;
+  }
+  #slide-3 .row:nth-of-type(2) {
+    height: 15%;
+  }
+}
+
+
+
+
+
 .leftbox {
   width: 40%;
   height: 100%;
@@ -832,5 +845,11 @@ hr.style1 {
   background-image: -o-linear-gradient(top, #bf0404, #d93434);
   background-image: linear-gradient(to bottom, #bf0404, #d93434);
   text-decoration: none;
+}
+
+@media only screen and (min-device-width: 991px) and (max-device-width: 1099px) {
+  .btn {
+    bottom: 220px;
+  }
 }
 

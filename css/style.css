@@ -342,6 +342,7 @@ img {
     font-size:120px;
     font-size:7vw;
     font-weight:bold;
+    height: auto;
 }
 #slide-3 .row:nth-of-type(2) {
     text-align:left;
@@ -850,6 +851,12 @@ hr.style1 {
   }
   #slide-3 .row {
     height: auto;
+  }
+  .btn {
+    margin-top: -1em;
+  }
+  p .job {
+    font-size: 6em;
   }
 }
 

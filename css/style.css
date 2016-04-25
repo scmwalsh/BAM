@@ -5,6 +5,11 @@ Primary style
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: letterica;
+  src: url('../Fonts/letterica.otf');
+}
+
 html {
   font-size: 62.5%;
 }
@@ -23,7 +28,7 @@ a {
   text-decoration: none;
 }
 h2 {
-    font-family:AGLettericaUltraCompressedC, sans-serif !important;
+    font-family:letterica, sans-serif !important;
     color:rgba(0,0,0,0.3) !important;
     font-size:12vw !important;
     margin-bottom: -2vw !important;

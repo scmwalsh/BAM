@@ -5,6 +5,11 @@ Primary style
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: letterica;
+  src: url('../Fonts/letterica.otf');
+}
+
 html {
   font-size: 62.5%;
 }
@@ -23,7 +28,7 @@ a {
   text-decoration: none;
 }
 h2 {
-    font-family:AGLettericaUltraCompressedC, sans-serif !important;
+    font-family:letterica, sans-serif !important;
     color:rgba(0,0,0,0.3) !important;
     font-size:12vw !important;
     margin-bottom: -2vw !important;
@@ -870,10 +875,14 @@ hr.style1 {
   margin-top:1.5em;
   }
   .jobAt911{
-    font-size:1.5em !important;
+    font-size:1.5em !important;   
   }
   .row div {
     height: 45%;
+  }
+
+  #slide-1 h2 {
+    font-size: 8em !important;
   }
   #slide-3 .row:nth-of-type(2) {
     height: 15%;

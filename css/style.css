@@ -874,7 +874,10 @@ hr.style1 {
     height: auto;
   }
   .btn {
-    margin-top: 1em;
+    margin-top: 1em !important;
+    margin-bottom: 5em !important;
+    position:relative !important;
+    top: auto !important;
   }
   p .job {
     font-size: 6em;

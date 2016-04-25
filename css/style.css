@@ -33,7 +33,7 @@ h3 {
     font-weight: bold;
     font-size:30px;
     font-size: 2vw;
-    
+
 }
 /* --------------------------------
 Slideshow
@@ -330,12 +330,12 @@ img {
 #slide-3 .cd-slider-content .content-wrapper {
     vertical-align:top;
     font-weight:normal;
-    
+
 }
 #slide-3 .row {
     height:20%;
     padding:0 10%;
-    
+
 }
 #slide-3 .row:nth-of-type(1) {
     text-align:right;
@@ -786,7 +786,7 @@ no-js
 
 
 /*social icons*/
-  
+
 /*page 5 box*/
 
 
@@ -858,6 +858,12 @@ hr.style1 {
 }
 
 @media (max-width: 991px) {
+  .clearAt991{
+  margin-top:1.5em;
+  }
+  .jobAt911{
+    font-size:1.5em !important;
+  }
   .row div {
     height: 45%;
   }
@@ -868,13 +874,9 @@ hr.style1 {
     height: auto;
   }
   .btn {
-    margin-top: -1em;
+    margin-top: 1em;
   }
   p .job {
     font-size: 6em;
   }
 }
-
-
-
-

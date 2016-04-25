@@ -882,4 +882,8 @@ hr.style1 {
   p .job {
     font-size: 6em;
   }
+
+  .Connect {
+    font-size: 150% !important;
+  }
 }

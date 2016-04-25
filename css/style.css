@@ -870,6 +870,10 @@ hr.style1 {
   text-decoration: none;
 }
 
+h2.Connect {
+  font-size: 8em !important;
+}
+
 @media (max-width: 991px) {
   .clearAt991{
   margin-top:1.5em;
@@ -899,8 +903,7 @@ hr.style1 {
   p .job {
     font-size: 6em;
   }
-
-  .Connect {
-    font-size: 150% !important;
+  h2.Connect {
+    font-size: 4em !important;
   }
 }

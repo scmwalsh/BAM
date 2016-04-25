@@ -858,6 +858,12 @@ hr.style1 {
 }
 
 @media (max-width: 991px) {
+  .clearAt991{
+  margin-top:1.5em;
+  }
+  .jobAt911{
+    font-size:1.5em !important;
+  }
   .row div {
     height: 45%;
   }
@@ -868,13 +874,9 @@ hr.style1 {
     height: auto;
   }
   .btn {
-    margin-top: -1em;
+    margin-top: 1em;
   }
   p .job {
     font-size: 6em;
   }
 }
-
-
-
-

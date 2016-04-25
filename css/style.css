@@ -380,7 +380,7 @@ img {
 
 /* Slider 4 styles*/
 .cd-slideshow > li:nth-of-type(4) .cd-slider-content .content-wrapper {
-  background: #fff;
+  background: white;
 }
 /* Slider 5 styles*/
 #slide-5 address {
@@ -771,6 +771,21 @@ no-js
 .no-js .sub-nav {
   display: none;
 }
+
+/*page 4 stylesL*/
+
+.blog {
+  color: #a9a9a9;
+  font-size: 7vw;
+  z-index: 1;
+  font-weight: bold;
+  position: absolute;
+  top: 1%;
+  right: 81%;
+}
+
+
+/*social icons*/
 
 /*page 5 box*/
 

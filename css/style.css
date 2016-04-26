@@ -822,7 +822,7 @@ no-js
 
 p.body5 {
   color: black;
-  font-size: 2.;
+  font-size: 2.3em;
   z-index: 1;
   font-weight: bold;
   margin: 0;
@@ -874,6 +874,9 @@ h2.Connect {
   font-size: 8em !important;
 }
 
+
+
+
 @media (max-width: 991px) {
   .clearAt991{
   margin-top:1.5em;
@@ -904,6 +907,16 @@ h2.Connect {
     font-size: 6em;
   }
   h2.Connect {
-    font-size: 4em !important;
+    font-size: 5.5em !important;
+  }
+  p.body5 {
+  font-size: 1.3em;
   }
 }
+
+@media (max-width: 584px) {
+  h2.Connect {
+    font-size: 2.5em !important;
+  }
+
+

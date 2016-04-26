@@ -787,12 +787,15 @@ no-js
 
 /*page 4 stylesL*/
 
+h2.blog {
+  width: 40%;
+}
+
 .blog {
   color: #a9a9a9;
   font-size: 7vw;
   z-index: 1;
   font-weight: bold;
-  position: absolute;
   top: 1%;
   right: 81%;
 }
@@ -845,6 +848,10 @@ hr.linebreak {
 }
 hr.style1 {
   border-top: 1px solid white;
+}
+
+hr.style2 {
+  border-top: 1px solid black;
 }
 
 .btn {

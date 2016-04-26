@@ -787,6 +787,10 @@ no-js
 
 /*page 4 stylesL*/
 
+.blogheader {
+  height: 97%;
+}
+
 h2.blog {
   width: 40%;
 }
@@ -935,4 +939,6 @@ h2.Connect {
     font-size: 2.5em !important;
   }
 
+/*  SOCIAL MEDIA ICONS
+*/
 

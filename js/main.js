@@ -288,8 +288,14 @@ jQuery(document).ready(function($){
 });
 
 
-function playVideo(){
+$(document).on('hidden.bs.modal', '#myModal', function (event) {
+	console.log('hidden');
 	var myFrame = $('#bamVideo');
-  var url = $(myFrame).attr('src') + '?autoplay=1';
-  $(myFrame).attr('src', url);
-}
+	$(myFrame)[0].contentWindow.postMessage('{"event":"command","func":"' + 'pauseVideo' + '","args":""}', '*');
+});
+
+$(document).on('shown.bs.modal', '#myModal', function (event) {
+	console.log('Shown');
+	var myFrame = $('#bamVideo');
+	$(myFrame)[0].contentWindow.postMessage('{"event":"command","func":"' + 'playVideo' + '","args":""}', '*');
+});
